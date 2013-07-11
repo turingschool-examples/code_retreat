@@ -4,7 +4,7 @@ Welcome to the Robot Simulator!
 
 ## Goals
 
-The goal of this exercise is that you cannot and will not finish. Instead, let's focus on the craft. Do you choose to...
+The goal of this exercise is that *you cannot and will not finish*. Instead, let's focus on the craft. Do you choose to...
 
 * Implement a ton of features hacking ugly code?
 * Implement just a few features and refactor them into beauty?
@@ -13,6 +13,22 @@ The goal of this exercise is that you cannot and will not finish. Instead, let's
 ## Expectations
 
 During each work session you will pair program with another developer. Sessions may have one or more constraints that you're strongly encouraged to follow.
+
+### The Robot Simulator
+
+Included in this repo is a `robot_test.rb` that will guide you through building a robot simulator.
+
+* The robot has coordinates on an x,y plane that specify her location
+* The robot has a bearing of north, south, east, or west
+* The robot can turn left and right
+* The robot can advance
+
+Beyond the robot itself, there shall be a `RobotSimulator` which can...
+
+* Place a robot at an arbitrary coordinate with a bearing
+* Take an instruction string like `"LARA"` and cause a robot to turn left, advance, turn right, and advance.
+
+Outside of `Robot` and `RobotSimulator`, you're welcome to create any classes/modules that are helpful to your implementation.
 
 ## Schedule
 
