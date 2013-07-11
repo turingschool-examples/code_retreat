@@ -14,19 +14,25 @@ The goal of this exercise is that *you cannot and will not finish*. Instead, let
 
 During each work session you will pair program with another developer. Sessions may have one or more constraints that you're strongly encouraged to follow.
 
-### The Robot Simulator
-
 Included in this repo is a `robot_test.rb` that will guide you through building a robot simulator.
 
-* The robot has coordinates on an x,y plane that specify her location
-* The robot has a bearing of north, south, east, or west
-* The robot can turn left and right
-* The robot can advance
+### `Robot`
+
+Create a Robot which:
+
+* has coordinates on an x,y plane that specify her location
+* has a bearing of north, south, east, or west
+* can turn left and right
+* can advance
+
+### `RobotSimulator`
 
 Beyond the robot itself, there shall be a `RobotSimulator` which can...
 
-* Place a robot at an arbitrary coordinate with a bearing
-* Take an instruction string like `"LARA"` and cause a robot to turn left, advance, turn right, and advance.
+* place a robot at an arbitrary coordinate with a bearing
+* take an instruction sequence like `"LARA"` and cause a robot to turn left, advance, turn right, and advance.
+
+### Other Classes
 
 Outside of `Robot` and `RobotSimulator`, you're welcome to create any classes/modules that are helpful to your implementation.
 
