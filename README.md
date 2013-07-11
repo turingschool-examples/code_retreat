@@ -61,15 +61,19 @@ The lines for the `def` and the matching `end` don't count, just the body of the
 
 ### Session 2
 
+Corey Haines will tell you `if` statements aren't Object-Oriented Programming.
+
+In this session, build your implemention **without `if` statements**.
+
+While you're working on being more efficient, **code without using the mouse**.
+
+### Session 3
+
 Pairing with someone you don't know can be a bit tough. It's hard to share the workload evenly.
 
 In this session, alternate control of the typing after **each line of code**.
 
-### Session 3
-
-Corey Haines will tell you `if` statements aren't Object-Oriented Programming.
-
-In this session, build your implemention **without `if` statements**.
+**And** let's bring back in the ideas of no method longer than 3 lines and not using the mouse.
 
 ### Session 4
 
