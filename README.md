@@ -4,7 +4,7 @@ Welcome to the Robot Simulator!
 
 ## Goals
 
-The goal of this exercise is that *you cannot and will not finish*. Instead, let's focus on the craft. Do you choose to...
+The goal of this exercise is *not* to pass all the tests. Instead, let's focus on the craft. Do you choose to...
 
 * Implement a ton of features hacking ugly code?
 * Implement just a few features and refactor them into beauty?
@@ -14,7 +14,7 @@ The goal of this exercise is that *you cannot and will not finish*. Instead, let
 
 During each work session you will pair program with another developer. Sessions may have one or more constraints that you're strongly encouraged to follow.
 
-Included in this repo is a `robot_test.rb` that will guide you through building a robot simulator.
+Included in this repo is `robot_test.rb` that will guide you.
 
 ### `Robot`
 
@@ -27,7 +27,7 @@ Create a Robot which:
 
 ### `RobotSimulator`
 
-Beyond the robot itself, there shall be a `RobotSimulator` which can...
+Beyond the robot itself, create a `RobotSimulator` which can...
 
 * place a robot at an arbitrary coordinate with a bearing
 * take an instruction sequence like `"LARA"` and cause a robot to turn left, advance, turn right, and advance.
@@ -69,7 +69,7 @@ In this session, alternate control of the typing after **each line of code**.
 
 Corey Haines will tell you `if` statements aren't Object-Oriented Programming.
 
-In this session, **build your implemention without `if` statements**.
+In this session, build your implemention **without `if` statements**.
 
 ### Session 4
 
