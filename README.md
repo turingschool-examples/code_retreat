@@ -30,7 +30,7 @@ Create a Robot which:
 Beyond the robot itself, create a `RobotSimulator` which can...
 
 * place a robot at an arbitrary coordinate with a bearing
-* take an instruction sequence like `"LARA"` and cause a robot to turn left, advance, turn right, and advance.
+* take an instruction sequence like `"LARA"` and cause a robot to turn left, advance, turn right, and advance
 
 ### Other Classes
 
@@ -63,7 +63,7 @@ The lines for the `def` and the matching `end` don't count, just the body of the
 
 Corey Haines will tell you `if` statements aren't Object-Oriented Programming.
 
-In this session, build your implemention **without `if` statements**.
+In this session, build your implementation **without `if` statements**.
 
 While you're working on being more efficient, **code without using the mouse**.
 
