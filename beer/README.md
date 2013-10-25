@@ -42,15 +42,6 @@ Implement a `sing` method that tells you which verses to output.
 
 You are welcome to create any methods, classes, or modules that are helpful to your implementation.
 
-## Schedule
-
-* 9:30 -- Opening
-* 10:00 -- Session 0
-* 10:45 -- Session 1
-* 11:30 -- Session 2
-* 1:00 -- Session 3
-* 1:45 -- Session 4
-
 ## Constraints
 
 ### Session 0 - Fundamentals
