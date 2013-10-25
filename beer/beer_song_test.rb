@@ -1,7 +1,9 @@
+gem 'minitest'
 require 'minitest/autorun'
+require 'minitest/pride'
 require_relative 'beer_song'
 
-class BeerSongTest < MiniTest::Unit::TestCase
+class BeerSongTest < Minitest::Test
 
   def beer_song
     @beer_song = ::BeerSong.new
