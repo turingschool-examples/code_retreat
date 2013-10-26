@@ -9,7 +9,7 @@ DEFAULT_MINUTES = 5
 desc "Run an auto-reset timer constraint"
 task :timer, :minutes do |t, args|
   while true
-    minutes = args[:minutes] || DEFAULT_MINUTES
+    minutes = args[:minutes] ? args[:minutes].to_i : DEFAULT_MINUTES
     puts "Waiting #{minutes} minutes..."
     while minutes > 0
       sleep(60)
