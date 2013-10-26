@@ -37,7 +37,7 @@ task :start, :minutes do |t, args|
   `git checkout master`
   `git checkout -b #{branch_name}`
   minutes = args[:minutes] ? args[:minutes].to_i : DEFAULT_SESSION_MINUTES
-
+  puts "Running a session for #{minutes} minutes"
   while minutes > 0
     sleep(60)
     minutes -= 1
