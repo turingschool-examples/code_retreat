@@ -9,12 +9,12 @@ task :timer do
   minutes = 2
   while true
     puts "Waiting #{minutes} minutes..."
-    sleep(60)
     while minutes > 0
-      minutes -= 1
-      puts "  #{minutes} left"
       sleep(60)
+      minutes -= 1
+      puts "  #{minutes} minutes left"
     end
+    `say "Reset in 10 seconds"`
     puts "Resetting..."
     Rake::Task[:reset].invoke
   end
