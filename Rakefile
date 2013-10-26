@@ -41,7 +41,7 @@ task :start, :minutes do |t, args|
   while minutes > 0
     sleep(60)
     minutes -= 1
-    if minutes > 0 || minutes % 5 == 0
+    if minutes == 1 || (minutes % 5 == 0 && minutes > 0)
       text = (minutes == 1) ? "minute" : "minutes"
       puts "  #{minutes} #{text} left"
       `say "#{minutes} #{text}"`
