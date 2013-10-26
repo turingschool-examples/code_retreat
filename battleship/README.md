@@ -1,6 +1,6 @@
 ## Battleship
 
-Battleship is a classic game where players compete head-to-head. [Wikipedia](http://en.wikipedia.org/wiki/Battleship_(game))
+Battleship is a classic game where players compete head-to-head. [Wikipedia](http://bit.ly/1adZ8iz)
 
 ### Pre-Game Layout
 
@@ -32,6 +32,20 @@ For the first session, get together with your partner and see how much of the ga
 ### Iteration 2 - Bottom Up
 
 In the second iteration, start building from the bottom up. Write unit tests that model and validate the functionality of the individual ships, then a board, then a player, then the gameplay.
+
+An example unit test for a ship might look like:
+
+```
+# Create a destroyer
+#
+# Hit it once
+# 
+# Confirm it is not sunk
+# 
+# Hit it again
+#
+# Confirm it is sunk
+```
 
 While building, write *no method longer than three lines*.
 
