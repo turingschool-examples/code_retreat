@@ -32,7 +32,7 @@ DEFAULT_SESSION_MINUTES = 40
 
 desc "Automatically branch and start a timer for a session"
 task :start, :minutes do |t, args|
-  dir_name = `pwd`.split("/").last.gsub(" ","_")
+  dir_name = `pwd`.chomp.split("/").last.gsub(" ","_")
   branch_name = dir_name + "_" + Time.now.strftime("%m_%e_%y_%H%M")
   `git checkout -b #{branch_name}`
   minutes = args[:minutes] ? args[:minutes].to_i : DEFAULT_SESSION_MINUTES
