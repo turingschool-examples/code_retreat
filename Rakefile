@@ -14,11 +14,14 @@ task :timer, :minutes do |t, args|
     while minutes > 0
       sleep(60)
       minutes -= 1
-      text = (minutes == 1) ? "minute" : "minutes"
-      puts "  #{minutes} #{text} left"
-      `say "#{minutes} #{text}"`
+      if minutes > 0
+        text = (minutes == 1) ? "minute" : "minutes"
+        puts "  #{minutes} #{text} left"
+        `say "#{minutes} #{text}"`
+      end
     end
     `say "Reset in 10 seconds"`
+    sleep(10)
     puts "Resetting..."
     Rake::Task[:reset].invoke
   end
