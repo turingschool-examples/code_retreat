@@ -1,5 +1,6 @@
 desc "Reset all code after an iteration"
 task :reset do
+  `say "Resetting"`
   `git reset --hard`
   `git clean -fxd .`
 end
