@@ -4,7 +4,7 @@ Battleship is a classic game where players compete head-to-head shooting guns an
 
 It is not this:
 
-![battleship the movie](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=brw5uENb8wHmXM&tbnid=Z327CLLtTZMiCM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.chscommunicator.com%2Fa-and-e%2F2012%2F05%2F20%2Fbattleship-movie-review%2F&ei=_jaGUuqbLI_YyQGhq4GYCQ&bvm=bv.56643336,d.aWc&psig=AFQjCNGG6VHBUUqXJtYxipvBs7BiRNNCkg&ust=1384613996112685)
+![battleship the movie](http://www.chscommunicator.com/wp-content/uploads/2012/10/giveaway-battleship630-jpg_2250282.jpg)
 
 ### Pre-Game Layout
 
