@@ -47,6 +47,8 @@ An example unit test for a ship might look like:
 # Confirm it is sunk
 ```
 
+#### Constraint
+
 While building, write *no method longer than three lines*.
 
 ### Iteration 3 - Top Down
@@ -64,8 +66,34 @@ In the third iteration, begin by writing an "acceptance test" which interacts wi
 
 Use that test, which touches multiple components, to drill down to the integration or unit test levels and drive the design of your game, board, and ships.
 
+#### Constraint
+
 While building, look for and *reduce duplication* through techniques like...
 
 * extracting and reusing modules
 * extracting and reusing child objects
 * metaprogramming
+
+### Iteration 4 - Auto-Layout
+
+Create a layout generator that can suggest patterns for laying out your ships. It could:
+
+* Have a random mode that just places them anywhere
+* Have a "tight" mode where each ship is touching at least one other ship to confuse the opponent
+* Have a "sparse" mode where no ship is closer than 2 spaces from any other ship
+
+#### Constraint
+
+While building, don't talk. Communicate through the code.
+
+### Iteration 5 - Artificial Intelligence
+
+Rather than focusing on the core game functionality, in this iteration build an artificial intelligence bot to play against. It should:
+
+* If the previous shot was a miss, take a shot at random.
+* If the previous shot was a hit that sunk a ship, take a shot at random.
+* If the previous shot was a hit that didn't sink a ship, shoot next to the previous shot attempting to find the rest of the ship
+
+#### Constraint
+
+Can you build it without `if` statements?
