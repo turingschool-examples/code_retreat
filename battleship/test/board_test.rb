@@ -1,6 +1,4 @@
-gem 'minitest'
-require 'minitest/autorun'
-require 'minitest/pride'
+require './test/battleship_test'
 require './lib/board'
 
 class BoardTest < Minitest::Test
