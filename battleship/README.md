@@ -1,6 +1,10 @@
 ## Battleship
 
-Battleship is a classic game where players compete head-to-head. [Wikipedia](http://bit.ly/1adZ8iz)
+Battleship is a classic game where players compete head-to-head shooting guns and sinking ships. [Wikipedia](http://bit.ly/1adZ8iz)
+
+It is not this:
+
+![battleship the movie](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=brw5uENb8wHmXM&tbnid=Z327CLLtTZMiCM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.chscommunicator.com%2Fa-and-e%2F2012%2F05%2F20%2Fbattleship-movie-review%2F&ei=_jaGUuqbLI_YyQGhq4GYCQ&bvm=bv.56643336,d.aWc&psig=AFQjCNGG6VHBUUqXJtYxipvBs7BiRNNCkg&ust=1384613996112685)
 
 ### Pre-Game Layout
 
@@ -18,6 +22,7 @@ Battleship is a classic game where players compete head-to-head. [Wikipedia](htt
 
 * Each turn, a player calls out one shot onto the other player's board.
 * The player being shot at responds with either "hit" or "miss"
+* The player tracks the shots they have taken on one board along with the results and the shots taken against them on their own board
 * If each square of a boat has been hit, they player responds "hit, you sunk my [X]" where X is the name of the boat
 * A player never gets more than one shot in a turn
 * If all of a player's ships are sunk, the opponent wins

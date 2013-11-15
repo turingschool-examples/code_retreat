@@ -15,7 +15,7 @@ For your convinience, there are a few Rake tasks provided:
 
 ### `rake reset`
 
-At the end of a session, run `rake reset` in your terminal to blow away any changes not comitted to git
+At the end of a session, run `rake reset` in your terminal to blow away any changes not comitted to git.
 
 ### `rake timer` or `rake timer[length]`
 
