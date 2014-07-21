@@ -36,15 +36,6 @@ Beyond the robot itself, create a `RobotSimulator` which can...
 
 Outside of `Robot` and `RobotSimulator`, you're welcome to create any classes/modules that are helpful to your implementation.
 
-## Schedule
-
-* 9:00 -- Opening
-* 9:30 -- Session 0
-* 10:15 -- Session 1
-* 11:00 -- Session 2
-* 1:00 -- Session 3
-* 1:45 -- Session 4
-
 ## Constraints
 
 ### Session 0 - Fundamentals
