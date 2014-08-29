@@ -38,54 +38,68 @@ Outside of `Robot` and `RobotSimulator`, you're welcome to create any classes/mo
 
 ## Constraints
 
-### Session 0 - Fundamentals
+For each session you'll use one of the following constraints:
+
+### A. Fundamentals
 
 Get familiar with the project and use any and all tools/techniques you're comfortable with.
 
-### Session 1 - Short Methods
+### B. Short Methods/Functions
 
-Good Ruby tends to use short methods. Let's push that idea to an extreme.
+Good programming tends to use short methods. Let's push that idea to an extreme.
 
-In this session, **write no methods longer than 3 lines**.
+In this session, **write no methods or functions longer than 3 lines**.
 
-The lines for the `def` and the matching `end` don't count, just the body of the method. Don't exceed 80 characters in line length or use semicolons -- that's missing the point.
+That's just counting the body of the method. Don't exceed 80 characters in line
+length -- that's missing the point.
 
-### Session 2 - If Statements & Keyboards
+### C. If Statements & Keyboards
 
 Corey Haines will tell you `if` statements aren't Object-Oriented Programming.
 
-In this session, build your implementation **without `if` statements**.
+In this session, build your implementation **without any `if` statements**.
 
-While you're working on being more efficient, **code without using the mouse**.
+### D. Your Editor is Important
 
-### Session 3 - A Single Line of Code
+Work on being more efficient, **code without using the mouse**.
+
+### E. A Single Line of Code
 
 Pairing with someone you don't know can be a bit tough. It's hard to share the workload evenly.
 
 In this session, alternate control of the typing after **each line of code**.
 
-**And** let's bring back in the ideas of no method longer than 3 lines and not using the mouse.
+### F. Enjoy the Silence
 
-### Session 4 - Enjoy the Silence
+Think you've got the hang of this problem? Pairing going well? Let's see how
+well you can communicate through code.
 
-Think you've got the hang of this problem? Pairing going well? Let's see how well you can communicate through code.
+In this session, **don't speak**.
 
-In this session, **don't speak**. Communicate through code and, if you have to, comments.
+### G. Functional Planes
 
-## Day 2
+In this session, implement your Robot in such a way that it has **no internal
+usage of North, South, East, and West**.
 
-The theme of today is JavaScript! By this point you should have a firm grasp of the problem itself, now it's time to focus just on the programming.
+Instead, implement a `Plane` which has a set of functions/methods that handlee
+all the knowledge around directions and coordinates. If possible, implement
+a second plane that uses *eight* directions to demonstrate your functionality.
 
-### Session 5 - JavaScript Fundamentals
+### H. Tag & Dumb Keyboard
 
-First up, let's use any and all techniques available to you -- but it has to be in JavaScript!
+Programming is about communication. In this session, when you're on the keyboard
+you should do **no thinking**. Instead, one half of the pair should serve as
+the dumb typist, while the non-typing half dictates everything that should be written.
 
-### Session 6 - Functional Planes
+When the keyboardist says *"tag"* then the roles are swapped.
 
-You can do great functional programming in JavaScript. In this session, implement your Robot in such a way that it has **no internal usage of North, South, East, and West**.
+### I. Testing Is Dumb
 
-Instead, implement a `Plane` which has a set of functions that handles all the knowledge around directions and coordinates.
+Write the Robot without using automated tests. Think critically about what parts
+of the development are faster and slower.
 
-### Session 7 - Dumb Keyboard
+### J. Doing It Wrong
 
-Programming is about communication. In this session, when you're on the keyboard you should do **no thinking**. Instead, one half of the pair should serve as the dumb typist, while the non-typing half dictates everything that should be done.
+Stretch your thinking by intentionally writing long, ugly code. Every line
+should push functionality forward, but use as many lines as you can. Think of it
+like "un-factoring".
