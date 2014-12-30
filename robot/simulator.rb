@@ -1,5 +1,5 @@
 class Robot
-  attr_reader :dir, :bearing
+  attr_reader :dir, :bearing, :coordinates
 
   def initialize
     @y_move = { :north => 1, :south => -1 }
@@ -7,8 +7,16 @@ class Robot
   end
 
   def orient(bearing)
-    raise ArgumentError unless [:east, :west, :north, :south].include? bearing
+    raise ArgumentError unless valid_dir.include? bearing
     @bearing = bearing 
+  end
+
+  def turn_right
+    @bearing = valid_dir[current_pos - (valid_dir.length - 1)]
+  end
+
+  def turn_left
+    @bearing = valid_dir[current_pos - 1]
   end
 
   def at(x, y)
@@ -17,38 +25,27 @@ class Robot
   end
 
   def coordinates
-    arr = []
-    arr << @x
-    arr << @y
+    [@x, @y]
   end 
 
   def advance
     case @bearing
       when :north then @y += 1
-      when :south then @y += -1
       when :east then @x += 1
+      when :south then @y += -1
       when :west then @x += -1
     end
   end
 
-  def turn_right
-    case @bearing
-      when :north then @bearing = :east
-      when :east  then @bearing = :south
-      when :south then @bearing = :west
-      when :west  then @bearing = :north
-    end
+  def current_pos
+    valid_dir.index(@bearing)
   end
 
-  def turn_left
-    case @bearing
-      when :north then @bearing = :west
-      when :east  then @bearing = :north
-      when :south then @bearing = :east
-      when :west  then @bearing = :south
-    end
+  def valid_dir
+    [:north, :east, :south, :west] 
   end
 end
+
 
 class Simulator
   def instructions(move)
