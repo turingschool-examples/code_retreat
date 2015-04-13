@@ -53,7 +53,7 @@ In this session, **write no methods or functions longer than 3 lines**.
 That's just counting the body of the method. Don't exceed 80 characters in line
 length -- that's missing the point.
 
-### C. If Statements & Keyboards
+### C. If Statements
 
 Corey Haines will tell you `if` statements aren't Object-Oriented Programming.
 
