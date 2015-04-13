@@ -53,3 +53,17 @@ task :start, :minutes do |t, args|
   `git checkout master`
   `git branch -d #{branch_name}`
 end
+
+desc "Say 'tag' every 60 seconds"
+task :tag do
+  puts "Type CTRL-C to stop. Turn on a little volume. Starting in 15 seconds..."
+  loop do
+    sleep(15)
+    `say "Begin!"`
+    6.times do
+      sleep(10)
+      printf(".")
+    end
+    `say "Tag! Tag! Tag!"`
+  end
+end
