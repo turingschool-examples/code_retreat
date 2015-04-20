@@ -5,7 +5,7 @@ Let's experiment with some small string puzzles.
 ## Challenges
 
 Complete one or more of the following challenges as your time
-allows.
+allows. You may work on them in any order you choose.
 
 ### Palindrome-Ness
 
@@ -14,7 +14,7 @@ or is not a palindrome.
 
 * Level 1: Use whatever tools are helpful
 * Level 2: Don't use `.reverse`
-* Level 3: Don't use `.reverse` or any form of array
+* Level 3: Don't use `.reverse` or any form of Array
 
 ### Sentence Reversal
 
@@ -22,8 +22,9 @@ Compute the reversal of a sentence. For example, `"This is a sample sentence"`
 becomes "sentence sample a is This".
 
 * Level 1: Use whatever tools are helpful
-* Level 2: Don't use any form of array
+* Level 2: Don't use any form of Array
 * Level 3: Use only strings, conditionals, and `each_char`
+* Level 4: Manipulate the string in place rather than creating a new one
 
 ### Run Length Encoding/Decoding
 
@@ -41,7 +42,9 @@ run-length and decode the results.
 * Level 1: Use whatever tools are helpful
 * Level 2: Can you do the encoding/decoding *without creating any new string objects*?
 
-## Protocol
+## Protocols
+
+Use the following protocols for your pairing sessions:
 
 ### 50/50
 
