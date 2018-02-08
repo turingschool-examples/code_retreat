@@ -45,27 +45,30 @@ run-length and decode the results.
 ## Protocols
 
 Use the following protocols for your pairing sessions:
+### A. Fundamentals
 
-### 50/50
+Get familiar with the project and use any and all tools/techniques you're comfortable with.
 
-Spend the first half of your session in silence working by yourself.
-When the facilitator instructs you to begin pairing, choose whichever
-of your two solutions has been *less* successful. Pair normally to make
-as much progress as you can for the rest of the period.
+### B. Short Methods/Functions
 
-*Think About*: Did you move faster or slower when pairing? How was your
-thinking different between the first minutes you were grappling with the
-problem and the latter when you were more focused on implementation?
+Good programming tends to use short methods. Let's push that idea to an extreme.
 
-### One Liner
+In this session, **write no methods or functions longer than 3 lines**.
 
-We often talk about pairs quickly alternating responsibility. In this
-session you're tasked with only writing a single line of text before
-alternating responsibility.
+That's just counting the body of the method. Don't exceed 80 characters in line
+length -- that's missing the point.
 
-* If one person writes the `def test_it_does_something`, then the other
-person writes the first line of the implementation.
-* If one person finishes the implementation of a method, the other person
-writes the `end`
-* Push yourself to write many short lines with quick alternation, not
-fewer lines with greater complexity.
+
+### C. Your Editor is Important
+
+Work on being more efficient, **code without using the mouse**.
+
+
+
+### D. Enjoy the Silence
+
+Think you've got the hang of this problem? Pairing going well? Let's see how
+well you can communicate through code.
+
+In this session, **don't speak**.
+
